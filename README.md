@@ -1,3 +1,9 @@
+<!-- local-development:start -->
+## Desarrollo local
+
+Consulta [RUNNING.md](RUNNING.md) para ubicar cada componente, abrirlo en su IDE, compilarlo y conocer las comprobaciones realizadas y los requisitos pendientes.
+<!-- local-development:end -->
+
 Supporting resources for "Learn Azure in a Month of Lunches" by Manning Publications
 More info on the book available here - https://www.manning.com/books/learn-azure-in-a-month-of-lunches
 
