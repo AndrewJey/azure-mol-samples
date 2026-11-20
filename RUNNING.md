@@ -48,3 +48,11 @@ Inventario y compilaciones locales del 2026-11-15. Una compilación correcta no 
 
 `.gitignore` excluye credenciales locales, estado del editor y salidas de las herramientas detectadas. No deja de versionar archivos que ya estaban en Git. Los manifiestos, archivos de bloqueo, recursos fuente y scripts de esquema forman parte del código.
 <!-- local-development:end -->
+
+<!-- improvements-20261119:start -->
+## Mejoras y verificación — 2026-11-19 (Configuración CosmosDB por variables de entorno y páginas estáticas responsivas)
+
+- Actualizado `10/cosmosdbwebapp/config.js` para leer `COSMOS_URI`, `COSMOS_PRIMARY_KEY`, `COSMOS_DATABASE` y `COSMOS_COLLECTION` desde entorno con helper `isConfigured()`.
+- Modernizadas `11/eastus/index.html` y `11/westeurope/index.html` con `viewport`, semántica HTML5 y diseño limpio responsivo.
+- Validación: `node --check` y `node --test` sobre configuración por entorno, JSON LUIS y páginas HTML.
+<!-- improvements-20261119:end -->
